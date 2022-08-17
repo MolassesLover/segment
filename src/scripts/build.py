@@ -8,22 +8,25 @@ import shutil
 #region Variables
 
 targetDirectories = [
-    'ass/textures/block', 
-    'ass/textures/colormap'
+    'textures/block', 
+    'textures/colormap'
 ]
 
 #endregion
 
 def Build():
     for targets in targetDirectories:
-        for fileName in os.listdir(targets):
-            # Create a full file path.
-            source = targets + fileName
-            destination = f'build/{targets/fileName}'
-            # Only copy files.
-            if os.path.isfile(source):
-                shutil.copy(source, destination)
-                print(f'Copied: {fileName}')
+        shutil.copytree(
+            f'ass/{targets}', 
+            f'build/SegmentMC/{targets}', 
+            symlinks=False, 
+            ignore=None,
+            ignore_dangling_symlinks=False,
+            dirs_exist_ok=False
+        )
+
+    # Individual files
+    shutil.copy('src/pack.mcmeta', 'build/SegmentMC/pack.mcmeta')
 
 if __name__ == '__main__':
     Build()
