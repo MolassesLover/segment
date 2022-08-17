@@ -10,12 +10,13 @@ from the repository's root.
 ➜ python3 src/scripts/build.py
 ```
 
-It will create the SegmentMC folder, which can be 
-installed just like any other resource pack.
+It will create the `build/SegmentMC` directory, which 
+can be installed just like any other resource pack.
 
 ## Screenshots
 
-Using the [Complementary shader](https://www.curseforge.com/minecraft/customization/complementary-shaders). 
+Using the [Complementary](https://www.curseforge.com/minecraft/customization/complementary-shaders).
+shader. 
 
 <html>
     <img src=docs/img/pond_house-1.png>
