@@ -18,7 +18,7 @@ def Build():
     for targets in targetDirectories:
         shutil.copytree(
             f'ass/{targets}', 
-            f'build/SegmentMC/{targets}', 
+            f'build/SegmentMC/assets/minecraft/{targets}', 
             symlinks=False, 
             ignore=None,
             ignore_dangling_symlinks=False,
