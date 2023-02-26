@@ -15,7 +15,7 @@ can be installed just like any other resource pack.
 
 ## Screenshots
 
-Using the [Complementary](https://www.curseforge.com/minecraft/customization/complementary-shaders).
+Using the [Complementary](https://www.curseforge.com/minecraft/customization/complementary-shaders)
 shader. 
 
 <html>
