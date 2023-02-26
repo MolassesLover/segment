@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 9,
-    "description": "v0.1.0\nfor MC 1.19"
+    "pack_format": 12,
+    "description": "v0.2.0\nfor MC 1.19.3"
   }
 }
